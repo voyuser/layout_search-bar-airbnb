@@ -12,17 +12,26 @@
   font-style: normal;
 }
 
-* {
+html {
   box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
 
 .searchbar {
   display: flex;
   flex-direction: column;
-  margin-top: 20px;
   font-family: Avenir, sans-serif;
   font-style: normal;
   width: 100%;
+}
+
+.searchbar:first-child {
+  margin: 20px auto;
 }
 
 .searchbar__input {
