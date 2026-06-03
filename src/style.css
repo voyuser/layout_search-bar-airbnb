@@ -22,7 +22,7 @@
   margin-top: 20px;
   font-family: Avenir, sans-serif;
   font-style: normal;
-  justify-content: 20px;
+  width: 100%;
 }
 
 .searchbar__input {
