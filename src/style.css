@@ -46,6 +46,10 @@ html {
   padding: 0;
 }
 
+.searchbar__input::placeholder {
+  color: #3d4e61;
+}
+
 .searchbar__input:hover {
   box-shadow: 0 3px 8px #3d4e6133;
 }
